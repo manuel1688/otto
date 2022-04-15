@@ -1,24 +1,26 @@
 # IMPLEMENTACION DE FLASK/BLUEPRINT
-Proyecto base de Python
+A Blueprintes una forma de organizar un grupo de views. En lugar de registrar views directamente con una aplicación, se registran con un Blueprint. Luego, el Blueprint se registra con la aplicación.
 
-#CREAR ENTORNO VIRTUAL
+## Entorno vistual del proyecto
+Entorno virtual para gestionar las dependencias de su proyecto.
+
+```bash
 python3 -m venv venv
 . venv/bin/activate
+```
 
-#INSTALAR PROYECTO
+## Instalación
+
+```bash
 pip install -e .
+```
 
-#CORRER EL PROYECTO
+#Ejecuión del proyecti
 
+```bash
 export FLASK_APP=flaskr
 export FLASK_ENV=development
 flask run
+```
 
-
-#INSTALAR PAQUETE PARA TEST
-pip install pytest coverage
-
-pytest
-coverage run -m pytest
-coverage html
 

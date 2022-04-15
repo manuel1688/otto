@@ -15,7 +15,7 @@ python3 -m venv venv
 pip install -e .
 ```
 
-#Ejecuión del proyecti
+## Ejecuión del proyecti
 
 ```bash
 export FLASK_APP=flaskr

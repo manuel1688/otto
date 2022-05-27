@@ -6,7 +6,7 @@ Entorno virtual para gestionar las dependencias de su proyecto.
 
 ```bash
 python3 -m venv venv
-. venv/bin/activate
+.\venv\Scripts\activate
 ```
 
 ## Instalación

@@ -1,4 +1,4 @@
-#  Flask, Blueprint y Security
+#  Flask, Blueprint, werkzeug.security y Sqlite
 A Blueprintes una forma de organizar un grupo de views. En lugar de registrar views directamente con una aplicación, se registran con un Blueprint. Luego, el Blueprint se registra con la aplicación.
 
 ## Entorno virtual
